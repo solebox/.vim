@@ -19,9 +19,10 @@ The vim dot files make use of the [Pathogen](https://github.com/tpope/vim-pathog
 Currently using version 2.2 of Pathogen
 
 ## Plugins Used
-emmet-vim
-jedi-vim
-sunburst
-vim-codeschool
-vim-colors-solarized
-zenburn
+```console
+* [emmet-vim)
+* [jedi-vim)
+* [sunburst)
+* [vim-codeschool)
+* [vim-colors-solarized)
+* [zenburn)
