@@ -21,7 +21,11 @@ Currently using version 2.2 of Pathogen
 ## Plugins Used
 * [emmet-vim](https://github.com/mattn/emmet-vim.git)
 * [jedi-vim](https://github.com/davidhalter/jedi-vim.git)
+* [nerdtree](https://github.com/scrooloose/nerdtree.git)
 * [sunburst](https://github.com/sickill/vim-sunburst.git)
+* [tabular](https://github.com/godlygeek/tabular.git)
 * [vim-codeschool](https://github.com/akmassey/vim-codeschool.git)
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized.git)
+* [vim-endwise](https://github.com/tpope/vim-endwise.git)
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
 * [zenburn](https://github.com/jnurmine/Zenburn.git)
