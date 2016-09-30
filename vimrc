@@ -83,5 +83,10 @@ endfunction
 " vimpager
 runtime macros/less.vim
 if has("vimpager")
-    let g:vimpager.ansiesc = 0 
+   let g:vimpager.ansiesc = 0 
+endif
+if has("mouse")
+    set mouse=a
+    set ttymouse=xterm2
+    set clipboard=unnamedutoselect
 endif
