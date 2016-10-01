@@ -32,7 +32,9 @@ vnoremap < <gv
 vnoremap > >gv 
 
 " ===  nerd tree ===
-noremap <Leader>1 :NERDTreeFind<cr>
+noremap <Leader>1 :NERDTreeTabsToggle<cr>
+let NERDTreeMapOpenInTab='t'
+
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.vim$', '\~$', '\.git$', '.DS_Store']
 " Close nerdtree and vim on close file
@@ -85,3 +87,6 @@ runtime macros/less.vim
 if has("vimpager")
    let g:vimpager.ansiesc = 0 
 endif
+
+" map jj to esc (insert mode)
+imap jj <ESC>
