@@ -29,3 +29,4 @@ Currently using version 2.3 of Pathogen
 * [vim-endwise](https://github.com/tpope/vim-endwise.git)
 * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
 * [zenburn](https://github.com/jnurmine/Zenburn.git)
+* [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs.git)
