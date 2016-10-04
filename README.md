@@ -1,7 +1,7 @@
 .vim
 ====
 
-My vim dot files. the `.vimrc` file is saved to [vimrc](https://github.com/jfrazelle/.vim/blob/master/vimrc).
+My vim dot files. the `.vimrc` file is saved to [vimrc](https://github.com/soleboxy/.vim/blob/master/vimrc).
 
 Just run the following commands via terminal to get perfectly set up:
 
