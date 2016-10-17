@@ -90,3 +90,9 @@ endif
 
 " map jj to esc (insert mode)
 imap jj <ESC>
+" line length limit
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
+"highlight search 
+set hlsearch
