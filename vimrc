@@ -96,3 +96,9 @@ match OverLength /\%81v.\+/
 
 "highlight search 
 set hlsearch
+
+" matching objects (braces, paran , etc) 
+noremap % v% 
+map ff ]}
+map fs [{
+
