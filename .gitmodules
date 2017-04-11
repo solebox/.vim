@@ -34,3 +34,9 @@
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/rust"]
+	path = bundle/rust
+	url = https://github.com/rust-lang/rust.vim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
