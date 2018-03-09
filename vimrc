@@ -83,10 +83,10 @@ function! Multiple_cursors_after()
   endif
 endfunction
 " vimpager
-runtime macros/less.vim
-if has("vimpager")
-   let g:vimpager.ansiesc = 0 
-endif
+"runtime macros/less.vim
+"if has("vimpager")
+"   let g:vimpager.ansiesc = 0 
+"endif
 
 " map jj to esc (insert mode)
 imap jj <ESC>
