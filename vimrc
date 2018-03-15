@@ -7,6 +7,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set relativenumber
+set backspace=indent,eol,start
 filetype off
 
 " Pathogen load
@@ -92,7 +93,7 @@ endif
 imap jj <ESC>
 " line length limit
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+match OverLength /\%181v.\+/
 
 "highlight search 
 set hlsearch
