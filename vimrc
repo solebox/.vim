@@ -53,7 +53,7 @@ call pathogen#helptags()
 
 filetype plugin indent on
 syntax on
-colorscheme Sunburst
+colorscheme molokai 
 hi Visual term=reverse cterm=reverse guibg=Grey
 " split nav 
 nnoremap <C-h> <C-w>h
