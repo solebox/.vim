@@ -37,6 +37,3 @@
 [submodule "bundle/rust"]
 	path = bundle/rust
 	url = https://github.com/rust-lang/rust.vim.git
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe
