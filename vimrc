@@ -3,6 +3,43 @@ let mapleader = ","
 " emmet leader key (yeah it works :) ) 
 let g:user_emmet_leader_key=','
 
+" Use UTF-8 without BOM
+set encoding=utf-8 nobomb
+
+" Make vim more useful
+set nocompatible
+
+" Enhance command-line completion
+set wildmenu
+
+" Optimize for fast terminal connections
+set ttyfast
+
+" Don’t add empty newlines at the end of files
+set binary
+set noeol
+
+" Centralize backups, swapfiles and undo history
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+if exists("&undodir")
+  set undodir=~/.vim/undo
+endif
+
+" Highlight current line
+set cursorline
+
+" Show “invisible” characters
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set list
+
+" Ignore case of searches
+set ignorecase
+" Show the filename in the window titlebar
+set title
+" Start scrolling three lines before the horizontal window border
+set scrolloff=3
+
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -70,12 +107,6 @@ let g:multi_cursor_prev_key='<C-y>'
 let g:multi_cursor_skip_key='<C-b>'
 let g:multi_cursor_quit_key='<Esc>'
 
-" Called once right before you start selecting multiple cursors
-function! Multiple_cursors_before()
-  if exists(':NeoCompleteLock')==2
-    exe 'NeoCompleteLock'
-  endif
-endfunction
 
 " Called once only when the multiple selection is canceled (default <Esc>)
 function! Multiple_cursors_after()
@@ -83,11 +114,6 @@ function! Multiple_cursors_after()
     exe 'NeoCompleteUnlock'
   endif
 endfunction
-" vimpager
-runtime macros/less.vim
-if has("vimpager")
-   let g:vimpager.ansiesc = 0 
-endif
 
 " map jj to esc (insert mode)
 imap jj <ESC>
